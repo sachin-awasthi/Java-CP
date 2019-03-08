@@ -1,1 +1,1 @@
-# Competitive-Coding-Java-
+Competitive Coding in Java
