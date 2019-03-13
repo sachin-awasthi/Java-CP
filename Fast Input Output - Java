@@ -12,7 +12,7 @@ class FastIO {
       
       /* int n = in.nextInt();
         int m = br.nextInt();
-        out.print(n+" "+m+" "+"\n");  */
+        out.println(n+" "+m);  */
       
     	out.flush();
     	out.close();
@@ -185,7 +185,11 @@ class FastIO {
                 writer.print(objects[i]);
             }
         }
-
+	 public void println(Object... objects) {
+            print(objects);
+            writer.println();
+        }
+	
         public void close() {
             writer.close();
         }
